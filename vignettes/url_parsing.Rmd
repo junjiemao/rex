@@ -128,7 +128,6 @@ bad <- c(
   "http://.www.foo.bar/",
   "http://www.foo.bar./",
   "http://.www.foo.bar./")
-
 all(grepl(re, good) == TRUE)
 
 all(grepl(re, bad) == FALSE)
